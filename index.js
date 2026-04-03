@@ -4,7 +4,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
 
-const CHANNEL_IDS = ['1485404649057030336', '1472973099304615986'];
+const CHANNEL_IDS = ['xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'xxxxxxxxxxxxxxxxxxxxxxxxxx'];
 const WHOISONLINE_URL = 'https://foxworldserver.com/?subtopic=whoisonline';
 const POLL_MS = 15000;
 const PER_PLAYER_COOLDOWN_MS = 60000;
@@ -240,7 +240,7 @@ async function enviarMensagemParaCanais(client, mensagem) {
 }
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
-const token = 'MTQ4NTQwMjAxMzc3MTc2Mzg3Mw.GqMyZS.q_ok6F_BCKWyVlh5dwX4bihbhaaaXi7z0mI67k';
+const token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 if (!token) {
   console.error('ERRO: Token não definido.');
